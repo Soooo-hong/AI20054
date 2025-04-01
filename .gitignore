@@ -1,0 +1,7 @@
+*.png
+__pycache__/
+cifar10_model/
+data/
+datasets/
+MNIST_model/
+test_.py
