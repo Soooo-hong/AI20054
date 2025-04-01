@@ -15,16 +15,28 @@ pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 --index-url https
 pip install -r requirements.txt
 ```
 
-## 1. Training
-### Train
+## 1. Training models
+### Training and dataset donwloading
 ```
 python train.py
 ```
 If you run the command, you would download MNIST, CIFAR-10 datasets and train each model for adversirial attack. 
+```
+    .
+    └── datasets                    
+        ├── cifar-10-batches-py 
+            ├──  
+        ├── MNIST
+            ├── raw
+                ├──
+```
 Two model classes in this project are implemented with reference to the source code and design patterns of PyTorch Lightning. 
 
 
-## 2. Test
+## 2. Evaluating models
+After traininig, each of the model's checkpoint is stored.
+* cifar10_model/lightning_logs/version_0/checkpoints
+* MNIST_model/lightning_logs/version_0/checkpoints
 ```
 python test.py
 ```
