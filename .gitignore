@@ -15,3 +15,7 @@ assignment2/saved_model3
 assignment2/model1.onnx
 assignment2/model2.onnx
 assignment2/model3.onnx
+
+assignment2/MNIST/*.h5
+
+assignment2/MNIST/generated_inputs
