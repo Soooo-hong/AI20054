@@ -1,4 +1,4 @@
-# AI20054
+# Assignment1
 
 ## Installation 
 I tested on cuda 11.8, gcc 11.2.
