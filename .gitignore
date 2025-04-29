@@ -5,3 +5,13 @@ data/
 datasets/
 MNIST_model/
 test_.py
+
+assignment2/__pycache__
+assignment2/cifar10_model
+assignment2/datasets
+assignment2/saved_model1
+assignment2/saved_model2
+assignment2/saved_model3
+assignment2/model1.onnx
+assignment2/model2.onnx
+assignment2/model3.onnx
