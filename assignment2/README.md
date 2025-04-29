@@ -43,7 +43,6 @@ Then you can get saved model file
 * assignment2/saved_model1
 * assignment2/saved_model2
 * assignment2/saved_model3
-```
 
 ## 3. Run DeepXplore on MNIST dataset
 ```
@@ -51,6 +50,4 @@ cd MNIST
 python gen_diff.py
 ```
 Then the generated_inputs are stored.
- ```
 * assignment2/MNIST/generated_inputs
-```
