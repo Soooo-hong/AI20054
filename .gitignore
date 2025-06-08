@@ -19,3 +19,7 @@ assignment2/model3.onnx
 assignment2/MNIST/*.h5
 
 assignment2/MNIST/generated_inputs
+
+assignment3/data
+assignment3/Marabou/data
+assignment3/Marabou/*.onnx
