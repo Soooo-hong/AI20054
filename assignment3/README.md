@@ -13,5 +13,7 @@ pip install -r requirements.txt
 ## 2. Run Marabou for PointNet
 ```
 cd Marabou
+python train_custommodel.py
 python test_pointnet.py 
 ```
+To get onnx file, you should command python train_custommodel.py. Then you can obtain SmallerCNN_cifar10.onnx.
