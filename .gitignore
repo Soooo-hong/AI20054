@@ -23,3 +23,6 @@ assignment2/MNIST/generated_inputs
 assignment3/data
 assignment3/Marabou/data
 assignment3/Marabou/*.onnx
+
+assignment4/data
+assignment4/train_custom.py
